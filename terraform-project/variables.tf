@@ -18,9 +18,7 @@ variable "instances" {
   
 }
 
-variable "spot_price" {
-  
-}
+
 
 variable "env" {
   //default = "dev"

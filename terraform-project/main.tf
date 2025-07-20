@@ -7,5 +7,5 @@ module "ec2" {
   vpc_security_group_id=var.vpc_security_group_ids
   env = var.env
   zone_id = var.zone_id
-  spot_price   = var.spot_price    
+  //spot_price   = var.spot_price    
 }

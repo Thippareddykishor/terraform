@@ -4,4 +4,4 @@ variable "name" {}
 variable "vpc_security_group_id"{}
 variable "zone_id" {}
 variable "env" {}
-variable "spot_price"    {}
+//variable "spot_price"    {}

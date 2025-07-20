@@ -35,7 +35,8 @@ resource "null_resource" "name" {
     }
     inline = [ 
       "sudo pip3.11 install ansible",
-      "ansible-pull -i localhost, -U https://github.com/raghudevopsb83/roboshop-ansible roboshop.yml -e component_name=${var.name} -e env=${var.env}"
+      //"ansible-pull -i localhost, -U https://github.com/raghudevopsb83/roboshop-ansible roboshop.yml -e component_name=${var.name} -e env=${var.env}"
+       "ansible-pull -i localhost, -U https://github.com/raghudevopsb83/roboshop-ansible roboshop.yml -e component_name=${var.name} -e env=${var.env}",
      ]
   }
 }
